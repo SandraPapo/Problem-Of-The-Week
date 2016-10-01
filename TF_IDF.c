@@ -1,5 +1,5 @@
 /*      Name: TF_IDF.c
-        Purpose: Uses term frequency-inverse document frequency (TF-IDF) technique to determining which strings are most relevant to a given query. This technique mitigates common word's contribution to relevance scores by weighting each term's frequency by a factor called the inverse document frequency.
+        Purpose: Uses term frequency-inverse document frequency (TF-IDF) technique to determine which strings are most relevant to a given query. This technique mitigates common word's contribution to relevance scores by weighting each term's frequency by a factor called the inverse document frequency.
         Author: Sandra Papo     */
 
 #include <stdio.h>
