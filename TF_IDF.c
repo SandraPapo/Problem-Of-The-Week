@@ -19,7 +19,7 @@ int main(void)
     D[2] = "dogs dogs dogs";
     const char T[] = "dogs";
 
-    // for loop calculate and print all input values
+    // for loop to calculate and print all input values
     for (int i = 0; i < N; i++) {
         double final = tf(T, D[i]) * idf(T, D, N);// formula computation
         printf("%i: %f\n",i + 1, final);//prints answer
